@@ -1,0 +1,21 @@
+pretrain:
+   bert_config_path: './bert/chinese_roformer_L-12_H-768_A-12/bert_config.json'
+   bert_checkpoint_path: './bert/chinese_roformer_L-12_H-768_A-12/bert_model.ckpt'
+   bert_dict_path: './bert/chinese_roformer_L-12_H-768_A-12/vocab.txt'
+   # 参数设置
+   maxlen: 512
+   epochs: 20
+   batch_size: 4
+   learning_rate: 0.00001
+
+   train_portion: 0.8
+
+   samples_path: './input_data/train.json'
+
+   test: './input_data/test.json'
+   label_path: "./best_model/labels.txt"
+   # 最优模型保存
+   best_model_path: "./best_model/best_model.weights"
+   output_file: "./result/output"
+
+
