@@ -29,4 +29,4 @@
 
 ## 测试
 
-1. 封闭评测时，需在`main.py中将`--do_train`默认为False， `--do_predict`默认为True，预测数据`--input_file`请从`../input/input.json`读取，需要提交的文件`--output_file`保存为`../output/output.json`，
+1. 封闭评测时，需在`main.py中将`--do_train`默认为False， `--do_predict`默认为True，预测数据`--input_file`请从`../input/input.json`读取，需要提交的文件`--output_file`保存为`../output/result.json`，
