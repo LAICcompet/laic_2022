@@ -82,8 +82,6 @@ def evaluate(true_path, output_path):
 
 
 if __name__ == '__main__':
-    # result = evaluate(sys.argv[1], sys.argv[2])
-    # print(result)
-    result = evaluate('小样本多任务/样本9.14/测试集_后台', '小样本多任务/baseline/result/output')
+    result = evaluate(sys.argv[1], sys.argv[2])
     print(result)
 
